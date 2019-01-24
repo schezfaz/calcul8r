@@ -8,6 +8,12 @@ function calculatorController($scope){
         if($scope.output == "0"){
             $scope.output = btn;
         }
+
+        
+        if(angular.equals(btn, 'x')){
+            $scope.output = $scope.output.slice(0,$scope.output.length-1);
+        } 
+        
         else{
             $scope.output += String(btn);
         }
