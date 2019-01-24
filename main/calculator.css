@@ -11,20 +11,30 @@ body{
     border-radius: 100px;
 }
 
-.keyboard{  
+.mainCalc{  
     width: 40%;
     padding: 10px;
+    margin: 50px auto;
+  padding: 15px;
+  width: 320px;
+  background: #3d4543;
+  border: 1px solid #222;
+  border-radius: 4px;
 }
 
 .result{
-    width: 235px;
+    width: 285px;
     height: 40px;
     border: 1px solid black;
     border-radius: 3px;
     background-color: lightcyan;
     text-align: center;
-    margin: 5px 6px;
+    margin: 5px;
     padding-bottom: 2px;
+}
+
+.keyboard{
+    align-content: center;
 }
 
 .btn{
@@ -33,7 +43,7 @@ body{
 
 .keys {
   height: 50px;
-  width: 50px;
+  width: 60px;
   margin: 5px;
   box-shadow: inset 1px 1px 50px lightgoldenrodyellow;
   text-align: center;
@@ -41,8 +51,9 @@ body{
 
 .long{
   height: 30px;
-  width: 110px;
+  width: 126px;
   margin: 5px;
+  align-content: center;
   padding: 3px;
   box-shadow: inset 1px 1px 50px lightgoldenrodyellow;
   /* border: black 0.4px solid; */
